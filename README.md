@@ -1,4 +1,6 @@
 # TODO_APPLICATION
+***Todo App is the application where users can save their upcoming future schedule. It is the reminder app. This application supports crud(Create, update, delete) functionality. 
+The demo of Crud functionality is shown below. 
 ***Logging in and adding work***
 </br>
 </br>
