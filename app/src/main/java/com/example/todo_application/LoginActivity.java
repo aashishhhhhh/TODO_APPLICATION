@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
                     txtPassword.setError(getString(R.string.login_password_required));
                     txtPassword.requestFocus();
                 } else {
-                    if (userName.equals("admin") && password.equals("test")) {
+                    if (userName.equals("ashish") && password.equals("Nepal123")) {
                         SharedPreferences preferences = getApplicationContext().getSharedPreferences("todo_pref", 0);
                         SharedPreferences.Editor editor = preferences.edit();
                         editor.putBoolean("authentication", true);

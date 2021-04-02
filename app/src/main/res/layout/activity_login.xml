@@ -23,9 +23,10 @@
             android:layout_marginLeft="50dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="LOGIN FORM"
+            android:text="LOGIN INTO APPLICATION"
             android:textColor="#0C0C0C"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/splash_txt_username"
@@ -39,7 +40,8 @@
             android:hint="Username"
             android:inputType="textPersonName"
             android:textColor="#0C0C0C"
-            android:textColorHint="#0C0C0C" />
+            android:textColorHint="#0C0C0C"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/splash_txt_password"
@@ -53,7 +55,8 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:textColor="#0C0C0C"
-            android:textColorHint="#0C0C0C" />
+            android:textColorHint="#0C0C0C"
+            android:textStyle="bold|italic" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,18 +74,36 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login_signin"
-                android:textColor="#0C0C0C"
-                app:backgroundTint="#E91E63" />
+                android:textColor="#FFFF"
+                app:backgroundTint="#0C0C0C" />
 
             <Button
                 android:id="@+id/splash_btn_cancel"
                 android:layout_width="wrap_content"
+                android:layout_marginRight="5dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/login_cancel"
-                android:textColor="#0C0C0C"
-                app:backgroundTint="#E91E63" />
+                android:textColor="#FFFF"
+                app:backgroundTint="#0C0C0C"
+
+
+                />
+
+
+
+
+
 
         </LinearLayout>
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="center"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
