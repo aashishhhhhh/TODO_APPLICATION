@@ -12,6 +12,7 @@ The demo of Crud functionality is shown below.***
 </br>
 </br>
 </br>
+</hr>
 ***Deleting Reminder ***
 </br>
 </br>
@@ -20,6 +21,7 @@ The demo of Crud functionality is shown below.***
 </br>
 </br>
 </br>
+</hr>
 ***Updating Reminder**
 </br>
 </br>
@@ -27,6 +29,7 @@ The demo of Crud functionality is shown below.***
 <img src="https://user-images.githubusercontent.com/47654151/113414813-8f875a80-93dd-11eb-8f0a-9384aaf78cba.gif">
 </br>
 </br>
+</hr>
 ***Updating previous work***
 </br>
 </br>
